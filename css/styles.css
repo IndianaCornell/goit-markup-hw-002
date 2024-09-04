@@ -1,0 +1,272 @@
+:root {
+  --main-title-color: #ffffff;
+  --subtitle-color: #2e2f42;
+  --primal-text-color: #434455;
+  --footer-text-color: #f4f4fd;
+}
+
+/*          global styles    */
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+button input a {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.vissually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*          header           */
+
+.header {
+}
+.header-nav {
+}
+
+.header-nav-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #4d5ae5;
+}
+
+.logo-dark {
+  color: var(--subtitle-color);
+}
+
+.header-nav-list {
+}
+.header-nav-item {
+}
+
+.header-nav-item-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: #2e2f42;
+}
+
+.header-nav-item-link:hover,
+.header-nav-item-link:focus {
+  color: rgba(64, 75, 191, 1);
+}
+
+.header-address {
+}
+.header-adress-list {
+}
+.header-address-item {
+}
+
+.header-address-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: var(--primal-text-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: rgba(64, 75, 191, 1);
+}
+
+/*          hero           */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--main-title-color);
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+  color: #ffffff;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+/*          advantages           */
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+
+.advantages-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: var(--subtitle-color);
+}
+
+.advantages-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: var(--primal-text-color);
+}
+
+/*          team           */
+
+.team {
+}
+
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--subtitle-color);
+}
+
+.team-list {
+}
+.team-item {
+}
+.team-photo {
+}
+
+.team-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--subtitle-color);
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--primal-text-color);
+}
+
+/*          portfolio           */
+
+.portfolio {
+}
+
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--subtitle-color);
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-image {
+}
+
+.portfolio-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--subtitle-color);
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--primal-text-color);
+}
+
+/*          footer           */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #4d5ae5;
+}
+
+.logo-light {
+  color: var(--footer-text-color);
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: var(--footer-text-color);
+}
