@@ -45,10 +45,11 @@ button input a {
 }
 
 .header-nav-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.23;
+  line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   text-align: left;
 
@@ -80,6 +81,7 @@ button input a {
 }
 
 .header-address {
+  font-style: normal;
 }
 .header-adress-list {
 }
@@ -146,7 +148,7 @@ button input a {
 .advantages-subtitle {
   font-size: 20px;
   font-weight: 500;
-  line-height: 0.83;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 
@@ -165,12 +167,14 @@ button input a {
 /*          team           */
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.33;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
 
@@ -180,6 +184,7 @@ button input a {
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-photo {
 }
@@ -211,7 +216,8 @@ button input a {
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.33;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
 
@@ -249,10 +255,11 @@ button input a {
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.23;
+  line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   text-align: left;
 
