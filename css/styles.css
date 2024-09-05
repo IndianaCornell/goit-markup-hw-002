@@ -57,7 +57,7 @@ button input a {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  text-align: left;
+
 
   color: var(--logo-and-button-color);
 }
@@ -76,7 +76,7 @@ button input a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+
 
   color: var(--subtitle-color);
 }
@@ -99,7 +99,7 @@ button input a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+
 }
 
 .header-address-link:hover,
@@ -129,7 +129,7 @@ button input a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: left;
+
 
   cursor: pointer;
 
@@ -155,7 +155,7 @@ button input a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+
 
   color: var(--subtitle-color);
 }
@@ -164,7 +164,7 @@ button input a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+
 }
 
 /*          team           */
@@ -260,7 +260,7 @@ button input a {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  text-align: left;
+
 
   color: var(--logo-and-button-color);
 }
@@ -272,7 +272,6 @@ button input a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 
   color: var(--footer-text-color);
 }
