@@ -1,8 +1,12 @@
 :root {
-  --main-title-color: #ffffff;
+  --main-title-and-background-color: #ffffff;
   --subtitle-color: #2e2f42;
+  --dark-section-color: #2e2f42;
   --primal-text-color: #434455;
   --footer-text-color: #f4f4fd;
+  --focus-color: #404BBF;
+  --logo-and-button-color: #4D5AE5;
+  ;
 }
 
 /*          global styles    */
@@ -10,7 +14,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color:  var(--primal-text-color);
-  background-color: var(--main-title-color)
+  background-color: var(--main-title-and-background-color)
 }
 
 button input a {
@@ -55,7 +59,7 @@ button input a {
   letter-spacing: 0.03em;
   text-align: left;
 
-  color: #4d5ae5;
+  color: var(--logo-and-button-color);
 }
 
 .logo-dark {
@@ -74,12 +78,12 @@ button input a {
   letter-spacing: 0.02em;
   text-align: left;
 
-  color: #2e2f42;
+  color: var(--subtitle-color);
 }
 
 .header-nav-item-link:hover,
 .header-nav-item-link:focus {
-  color: rgba(64, 75, 191, 1);
+  color: var(--focus-color);
 }
 
 .header-address {
@@ -96,19 +100,17 @@ button input a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-
-  color: var(--primal-text-color);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: rgba(64, 75, 191, 1);
+  color: var(--focus-color);
 }
 
 /*          hero           */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-section-color);
 }
 
 .hero-title {
@@ -118,7 +120,7 @@ button input a {
   letter-spacing: 0.02em;
   text-align: center;
 
-  color: var(--main-title-color);
+  color: var(--main-title-and-background-color);
 }
 
 .hero-button {
@@ -131,13 +133,13 @@ button input a {
 
   cursor: pointer;
 
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--main-title-and-background-color);
+  background-color: var(--logo-and-button-color);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background: var(--focus-color);
 }
 
 /*          advantages           */
@@ -163,8 +165,6 @@ button input a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-
-  color: var(--primal-text-color);
 }
 
 /*          team           */
@@ -187,7 +187,7 @@ button input a {
 .team-list {
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--main-title-and-background-color);
 }
 .team-photo {
 }
@@ -207,8 +207,6 @@ button input a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-
-  color: var(--primal-text-color);
 }
 
 /*          portfolio           */
@@ -247,14 +245,12 @@ button input a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  color: var(--primal-text-color);
 }
 
 /*          footer           */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--dark-section-color);
 }
 
 .footer-logo {
@@ -266,7 +262,7 @@ button input a {
   letter-spacing: 0.03em;
   text-align: left;
 
-  color: #4d5ae5;
+  color: var(--logo-and-button-color);
 }
 
 .logo-light {
